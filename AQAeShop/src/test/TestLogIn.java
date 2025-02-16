@@ -13,7 +13,6 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.devtools.v128.fetch.model.AuthChallengeResponse.Response;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import webpages.LogInPage;
@@ -183,4 +182,5 @@ public class TestLogIn {
 		
 		assertEquals("https://automaticityacademy.ngrok.app/dashboard", currentUrl);
 	}
+	
 }
